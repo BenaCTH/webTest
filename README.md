@@ -17,8 +17,28 @@
 ## "自定义测试报告 --Mochawesome  
 * npm install --save-dev mocha
 * npm install --save-dev mochawesome 
-* npm run cypress:run -- --reporter mochawesome"								
-								
+* npm run cypress:run -- --reporter mochawesome"
+
+## cypress open 参数列表
+参数|含义
+--|--
+--browser,-b|指定运行测试的浏览器
+--config,-b|指定运行时的配置项
+--env,-e|定义环境变量
+--global|全局模式
+			
+## cypress run 参数列表
+参数|含义
+--|--
+--browser,-b|定义一个运行用例的不同浏览器
+--config,-b|指定运行时的配置项
+--env,-e|定义环境变量
+--spec,-s|定义运行的测试用例文件（一个或多个）	
+--record|是否录制测试视频
+--reporter,-r|定义Mocha 报告生成器
+			
 								
 ## 参考API：								
-* 断言库 https://mochajs.org/ | http://www.chaijs.com/								
+* 断言库 https://mochajs.org/ | http://www.chaijs.com/
+
+							
